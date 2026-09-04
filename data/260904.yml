@@ -1,0 +1,64 @@
+about:
+  description:
+  |
+    Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
+  license: MIT
+  homepage: https://docs.projectdiscovery.io/tools/nuclei
+  head: fe7b1df
+  archived: false
+  latestVersion: v3.11.1
+  collectedAt: 2026-09-04T04:48:54Z
+timeline:
+  created: 2020-04-03
+  lastCommit: 2026-09-04
+  lastRelease: 2026-08-08
+popularity:
+  star: 31003
+  watcher: 293
+  fork: 3854
+  release: 147
+  contributor: 275
+  pullRequest: 963
+  issue: 2950
+language:
+  Go: 4482868
+  TypeScript: 125660
+  HTML: 12275
+  Makefile: 10123
+  Go Template: 8427
+  JavaScript: 6978
+  Dockerfile: 288
+totalBytes: 4646619
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 1
+    mergedPR: 25
+    openPR: 12
+    closedIssue: 15
+    openIssue: 5
+    commit: 37
+  last90d:
+    since: 2026-06-06
+    release: 4
+    mergedPR: 103
+    openPR: 40
+    closedIssue: 63
+    openIssue: 14
+    commit: 133
+  last180d:
+    since: 2026-03-08
+    release: 5
+    mergedPR: 189
+    openPR: 42
+    closedIssue: 112
+    openIssue: 17
+    commit: 259
+  last360d:
+    since: 2025-09-09
+    release: 12
+    mergedPR: 363
+    openPR: 44
+    closedIssue: 263
+    openIssue: 19
+    commit: 549
