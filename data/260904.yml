@@ -7,7 +7,7 @@ about:
   head: 911c230
   archived: false
   latestVersion: v3.11.1
-  collectedAt: 2026-09-04T20:18:38Z
+  collectedAt: 2026-09-04T20:24:23Z
 timeline:
   created: 2020-04-03
   lastCommit: 2026-09-04
@@ -87,7 +87,7 @@ total:
   commit: 6525
 ---
 path: /home/runner/.x-repo/github.com/projectdiscovery/nuclei
-collectedAt: 2026-09-04T20:18:41Z
+collectedAt: 2026-09-04T20:24:25Z
 loc:
   Go:
     code: 111957
