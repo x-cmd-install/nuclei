@@ -2,21 +2,21 @@ about:
   description: "Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations."
   license: MIT
   homepage: https://docs.projectdiscovery.io/tools/nuclei
-  head: f5d0ef8
+  head: f6abdcf
   archived: false
   latestVersion: "v3.11.1"
-  collectedAt: 2026-09-07T04:23:54Z
+  collectedAt: 2026-09-07T20:06:42Z
 timeline:
   created: 2020-04-03
-  lastCommit: 2026-09-06
+  lastCommit: 2026-09-07
   lastRelease: 2026-08-08
 popularity:
-  star: 31048
+  star: 31061
   watcher: 293
-  fork: 3863
+  fork: 3864
   release: 147
   contributor: 256
-  pullRequest: 3750
+  pullRequest: 3752
   issue: 2952
 language:
   Go: 4504627
@@ -31,61 +31,61 @@ recent:
   last30d:
     since: 2026-08-08
     release: 1
-    mergedPR: 25
-    openPR: 17
+    mergedPR: 26
+    openPR: 18
     closedIssue: 15
     openIssue: 4
-    commit: 34
+    commit: 35
   last60d:
     since: 2026-07-09
     release: 1
-    mergedPR: 62
-    openPR: 40
+    mergedPR: 63
+    openPR: 41
     closedIssue: 41
     openIssue: 12
-    commit: 94
+    commit: 95
   last90d:
     since: 2026-06-09
     release: 4
-    mergedPR: 98
-    openPR: 44
+    mergedPR: 99
+    openPR: 45
     closedIssue: 62
     openIssue: 14
-    commit: 131
+    commit: 132
   last180d:
     since: 2026-03-11
     release: 5
-    mergedPR: 187
-    openPR: 46
+    mergedPR: 188
+    openPR: 47
     closedIssue: 112
     openIssue: 17
-    commit: 257
+    commit: 258
   last360d:
     since: 2025-09-12
     release: 12
-    mergedPR: 359
-    openPR: 47
+    mergedPR: 360
+    openPR: 48
     closedIssue: 261
     openIssue: 18
-    commit: 539
+    commit: 540
   last720d:
     since: 2024-09-17
     release: 31
-    mergedPR: 639
-    openPR: 47
+    mergedPR: 640
+    openPR: 48
     closedIssue: 576
     openIssue: 27
-    commit: 1167
+    commit: 1168
 total:
   release: 147
-  mergedPR: 2782
-  openPR: 47
+  mergedPR: 2783
+  openPR: 48
   closedIssue: 2895
   openIssue: 57
-  commit: 6526
+  commit: 6527
 ---
 path: /home/runner/.x-repo/github.com/projectdiscovery/nuclei
-collectedAt: 2026-09-07T04:23:58Z
+collectedAt: 2026-09-07T20:06:47Z
 loc:
   Go:
     code: 112363
@@ -358,7 +358,7 @@ checks:
       - 'Warn: 19 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:23:59+00:00
+  collectedAt: 2026-09-07T20:06:47+00:00
   platform:
     darwin/arm64:
       name:  nuclei_3.11.1_macOS_arm64.zip
