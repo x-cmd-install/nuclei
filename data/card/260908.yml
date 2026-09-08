@@ -5,15 +5,15 @@ about:
   head: f6abdcf
   archived: false
   latestVersion: "v3.11.1"
-  collectedAt: 2026-09-08T01:41:41Z
+  collectedAt: 2026-09-08T04:25:18Z
 timeline:
   created: 2020-04-03
   lastCommit: 2026-09-07
   lastRelease: 2026-08-08
 popularity:
-  star: 31062
+  star: 31065
   watcher: 293
-  fork: 3865
+  fork: 3866
   release: 147
   contributor: 256
   pullRequest: 3753
@@ -85,7 +85,7 @@ total:
   commit: 6527
 ---
 path: /home/runner/.x-repo/github.com/projectdiscovery/nuclei
-collectedAt: 2026-09-08T01:41:48Z
+collectedAt: 2026-09-08T04:25:24Z
 loc:
   Go:
     code: 112363
