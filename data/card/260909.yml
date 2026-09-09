@@ -7,7 +7,7 @@ about:
   latestVersion: "v3.11.1"
   latestRelease: "v3.11.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T04:30:36Z
+  collectedAt: 2026-09-09T18:24:24Z
 timeline:
   created: 2020-04-03
   lastCommit: 2026-09-09
@@ -15,13 +15,13 @@ timeline:
   lastRelease: 2026-08-08
   lastPrerelease: 
 popularity:
-  star: 31079
-  watcher: 290
-  fork: 3857
+  star: 31087
+  watcher: 288
+  fork: 3861
   release: 147
   contributor: 256
-  pullRequest: 3758
-  issue: 2952
+  pullRequest: 3761
+  issue: 2954
 language:
   Go: 4509967
   TypeScript: 125660
@@ -36,60 +36,60 @@ recent:
     since: 2026-08-10
     release: 0
     mergedPR: 24
-    openPR: 22
+    openPR: 25
     closedIssue: 11
-    openIssue: 4
+    openIssue: 6
     commit: 38
   last60d:
     since: 2026-07-11
     release: 1
     mergedPR: 64
-    openPR: 45
+    openPR: 48
     closedIssue: 42
-    openIssue: 11
+    openIssue: 13
     commit: 98
   last90d:
     since: 2026-06-11
     release: 3
     mergedPR: 99
-    openPR: 49
+    openPR: 52
     closedIssue: 60
-    openIssue: 13
+    openIssue: 15
     commit: 135
   last180d:
     since: 2026-03-13
     release: 5
     mergedPR: 190
-    openPR: 51
+    openPR: 54
     closedIssue: 113
-    openIssue: 16
+    openIssue: 18
     commit: 261
   last360d:
     since: 2025-09-14
     release: 12
     mergedPR: 361
-    openPR: 52
+    openPR: 55
     closedIssue: 261
-    openIssue: 17
+    openIssue: 19
     commit: 543
   last720d:
     since: 2024-09-19
     release: 31
     mergedPR: 639
-    openPR: 52
+    openPR: 55
     closedIssue: 575
-    openIssue: 25
+    openIssue: 27
     commit: 1172
 total:
   release: 147
   mergedPR: 2785
-  openPR: 52
+  openPR: 55
   closedIssue: 2896
-  openIssue: 56
+  openIssue: 58
   commit: 6531
 ---
 path: /home/runner/.x-repo/github.com/projectdiscovery/nuclei
-collectedAt: 2026-09-09T04:30:41Z
+collectedAt: 2026-09-09T18:24:32Z
 loc:
   Go:
     code: 112538
