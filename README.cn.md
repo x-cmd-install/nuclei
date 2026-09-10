@@ -4,7 +4,7 @@
 
 Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
 
-![nuclei](https://repo.x-cmd.io/nuclei.svg)
+![nuclei](https://repo.x-cmd.io/nuclei.svg?lang=zh)
 
 ## 安装
 
@@ -23,23 +23,36 @@ x install nuclei
 - **最新版本**: `v3.11.1` (2026-08-08)
 - **最近提交**: 2026-09-10
 - **Release 含资产**: 9 个
-- **发布时间**: 2026-08-08T12:21:32Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [nuclei_3.11.1_checksums.txt](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_checksums.txt) | 766 B | `other` |
+| [nuclei_3.11.1_linux_386.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_386.zip) | 41.3 MiB | `other` |
+| [nuclei_3.11.1_linux_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_amd64.zip) | 44.0 MiB | `native/linux/x64` |
+| [nuclei_3.11.1_linux_arm.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_arm.zip) | 41.8 MiB | `native/linux/arm` |
+| [nuclei_3.11.1_linux_arm64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_arm64.zip) | 39.5 MiB | `native/linux/arm64` |
+| [nuclei_3.11.1_macOS_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_macOS_amd64.zip) | 45.0 MiB | `native/darwin/x64` |
+| [nuclei_3.11.1_macOS_arm64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_macOS_arm64.zip) | 41.6 MiB | `native/darwin/arm64` |
+| [nuclei_3.11.1_windows_386.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_386.zip) | 42.0 MiB | `native/win/x64` |
+| [nuclei_3.11.1_windows_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip) | 43.9 MiB | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 31,094 · **Fork**: 3,852 · **开放 issue**: 2,954 · **贡献者**: 256
+- **Star**: 31,102 · **Fork**: 3,852 · **开放 issue**: 2,955 · **贡献者**: 256
 
 ## 累计统计
 
-- **发布数**: 147 · **已合并 PR**: 2789 · **开放 PR**: 51 · **已关闭 issue**: 2899 · **开放 issue**: 55 · **提交数**: 6540
+- **发布数**: 147 · **已合并 PR**: 2789 · **开放 PR**: 52 · **已关闭 issue**: 2899 · **开放 issue**: 56 · **提交数**: 6540
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 27 | 21 | 12 | 4 | 44 |
-| 90d | 2026-06-12 | 3 | 103 | 48 | 62 | 12 | 141 |
-| 360d | 2025-09-15 | 12 | 364 | 51 | 264 | 16 | 549 |
+| 30d | 2026-08-11 | 0 | 27 | 22 | 12 | 5 | 44 |
+| 90d | 2026-06-12 | 3 | 103 | 49 | 62 | 13 | 141 |
+| 360d | 2025-09-15 | 12 | 364 | 52 | 264 | 17 | 549 |
 
 ## 代码规模
 
@@ -72,4 +85,4 @@ nuclei 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:29:04Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:59:15Z._
