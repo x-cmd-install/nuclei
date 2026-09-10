@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 766,
       "digest": "sha256:8c55f4113c54dfa4a202e32eaaa8b78abc741a13ed7941651322748fb233a05e",
-      "download_count": 28712,
+      "download_count": 28844,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:39Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_checksums.txt"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 43344218,
       "digest": "sha256:e19ea942f099406cc6f0a9192dd8d0fbf6f236473905c5b10f30a2aaaab3cef0",
-      "download_count": 2947,
+      "download_count": 2949,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_386.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 46148343,
       "digest": "sha256:ea63d4ae232808cd7c6bc00d0142428e231fab59dae01042246097d195835ab6",
-      "download_count": 96413,
+      "download_count": 96919,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_amd64.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 43878746,
       "digest": "sha256:22940b798dfe11aa1c67c9041c32916cec5ceaca132a6ec426e87c92282c64ae",
-      "download_count": 147,
+      "download_count": 154,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_arm.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 41431918,
       "digest": "sha256:8044e3d9768ba0a744b2872c1a87e813006f013da97ca9f50f7661a4203bec07",
-      "download_count": 20199,
+      "download_count": 20305,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_linux_arm64.zip"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 47219687,
       "digest": "sha256:75c47ce11e9dbd4288a1c895ed85e3c4df9f4acb8237d6d178da6dccd1628f2a",
-      "download_count": 889,
+      "download_count": 893,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_macOS_amd64.zip"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 43571292,
       "digest": "sha256:7d7e291addd1fc29a9bf8d089afe878a9799b20229cbea2fb1693fc40fd4c5f0",
-      "download_count": 2711,
+      "download_count": 2724,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:41Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_macOS_arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 44074102,
       "digest": "sha256:f7571ca47f8501a654860b4df20d12137b8f4de7799d439b621a5b8035747990",
-      "download_count": 1144,
+      "download_count": 1149,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_386.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 46067128,
       "digest": "sha256:bb6cb9ff8939b753f6fcab06fd30a15f5bc61d8382a597871334c007a85ff9d2",
-      "download_count": 17674,
+      "download_count": 17742,
       "created_at": "2026-08-08T12:51:39Z",
       "updated_at": "2026-08-08T12:51:42Z",
       "browser_download_url": "https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip"
