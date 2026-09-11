@@ -24,13 +24,6 @@
     - 3426-spameier@users.gitlab.alpinelinux.org
   licenses:
     - MIT
-- repo: homebrew
-  srcname: nuclei
-  visiblename: nuclei
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: HTTP/DNS scanner configurable via YAML templates
 - repo: altsisyphus
   srcname: nuclei
   binnames:
@@ -136,6 +129,18 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
+- repo: nix_stable_25_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.8.0
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
 - repo: fedora_43
   subrepo: updates
   srcname: nuclei
@@ -223,6 +228,13 @@
   origversion: null
   status: newest
   summary: HTTP/DNS scanner configurable via YAML templates
+- repo: homebrew
+  srcname: nuclei
+  visiblename: nuclei
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: HTTP/DNS scanner configurable via YAML templates
 - repo: kali_rolling
   subrepo: main
   srcname: nuclei
@@ -252,18 +264,6 @@
     - MIT
   categories:
     - security
-- repo: nix_stable_25_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.8.0
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: nuclei
   visiblename: nuclei
@@ -296,7 +296,7 @@
     - nuclei-debugsource
   visiblename: nuclei
   version: 3.11.0
-  origversion: 3.11.0-1.3
+  origversion: 3.11.0-1.4
   status: outdated
   summary: Fast, customizable vulnerability scanner
   licenses:
@@ -354,14 +354,29 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: blackarch
+- repo: nix_stable_24_11
   srcname: nuclei
-  binname: nuclei
   visiblename: nuclei
-  version: v3.11.1.r72.g911c230
-  origversion: 2:v3.11.1.r72.g911c230-1
+  version: 3.3.5
+  origversion: null
   status: outdated
-  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.4.3
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
   licenses:
     - MIT
   vulnerable: true
@@ -373,6 +388,17 @@
   origversion: 2:v3.6.2.r330.gd63d022-1
   status: outdated
   summary: Detached debugging symbols for nuclei
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: blackarch
+  srcname: nuclei
+  binname: nuclei
+  visiblename: nuclei
+  version: v3.11.1.r72.g911c230
+  origversion: 2:v3.11.1.r72.g911c230-1
+  status: outdated
+  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
   licenses:
     - MIT
   vulnerable: true
@@ -400,19 +426,6 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: nix_stable_24_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.3.5
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: gentoo_ovl_pentoo
   srcname: net-analyzer/nuclei-bin
   visiblename: net-analyzer/nuclei-bin
@@ -437,19 +450,6 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: nix_stable_25_05
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.4.3
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: openbsd
   srcname: security/nuclei
   binname: nuclei
@@ -464,7 +464,7 @@
     - security
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nuclei
   binnames:
     - nuclei
@@ -479,7 +479,7 @@
     - golang
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
