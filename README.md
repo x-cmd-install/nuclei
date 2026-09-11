@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,108 · **Forks**: 3,854 · **Open issues**: 2,955 · **Contributors**: 256
+- **Stars**: 31,115 · **Forks**: 3,856 · **Open issues**: 2,956 · **Contributors**: 256
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2789 · **Open PRs**: 52 · **Closed issues**: 2900 · **Open issues**: 55 · **Commits**: 6540
+- **Releases**: 147 · **Merged PRs**: 2789 · **Open PRs**: 43 · **Closed issues**: 2900 · **Open issues**: 56 · **Commits**: 6540
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-12 | 0 | 27 | 22 | 13 | 4 | 44 |
-| last60d | 2026-07-13 | 1 | 66 | 45 | 45 | 10 | 104 |
-| 90d | 2026-06-13 | 3 | 103 | 49 | 63 | 12 | 141 |
-| last180d | 2026-03-15 | 5 | 192 | 51 | 113 | 15 | 267 |
-| 360d | 2025-09-16 | 12 | 364 | 52 | 265 | 16 | 549 |
-| last720d | 2024-09-21 | 31 | 642 | 52 | 577 | 24 | 1173 |
+| 30d | 2026-08-12 | 0 | 27 | 13 | 13 | 5 | 44 |
+| last60d | 2026-07-13 | 1 | 66 | 36 | 45 | 11 | 104 |
+| 90d | 2026-06-13 | 3 | 103 | 40 | 63 | 13 | 141 |
+| last180d | 2026-03-15 | 5 | 192 | 42 | 113 | 16 | 267 |
+| 360d | 2025-09-16 | 12 | 364 | 43 | 265 | 17 | 549 |
+| last720d | 2024-09-21 | 31 | 642 | 43 | 577 | 25 | 1173 |
 
 ## Release assets
 
@@ -85,7 +85,7 @@ Reported by **43** distros on [repology.org](https://repology.org/project/nuclei
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `3.11.1` | ✅ latest |
 | Fedora rawhide | `3.11.0` | ⚠️ outdated |
 | Nix unstable | `3.11.1` | ✅ latest |
 | Alpine edge | `3.11.0` | ⚠️ outdated |
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260911.yml` · 2026-09-11T04:27:23Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T20:32:03Z._
