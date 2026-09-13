@@ -1,3 +1,13 @@
+- repo: slackbuilds
+  srcname: misc/nuclei
+  visiblename: misc/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - danix@danix.xyz
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -129,18 +139,6 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
-- repo: nix_stable_25_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.8.0
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
 - repo: fedora_43
   subrepo: updates
   srcname: nuclei
@@ -250,6 +248,15 @@
     - sophie@kali.org
   categories:
     - golang
+- repo: scoop
+  subrepo: main
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: macports
   srcname: security/nuclei
   binname: nuclei
@@ -264,6 +271,18 @@
     - MIT
   categories:
     - security
+- repo: nix_stable_25_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.8.0
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: nuclei
   visiblename: nuclei
@@ -313,25 +332,6 @@
   summary: Fast and customisable vulnerability scanner based on simple YAML based DSL
   maintainers:
     - oren@taumoda.com
-- repo: scoop
-  subrepo: main
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: misc/nuclei
-  visiblename: misc/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - danix@danix.xyz
-  categories:
-    - misc
 - repo: stalix
   srcname: bin/nuclei
   binname: bin/nuclei
@@ -354,32 +354,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: nix_stable_24_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.3.5
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: nix_stable_25_05
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.4.3
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei-debug
@@ -441,6 +415,32 @@
   srcname: nuclei
   visiblename: nuclei
   version: 3.2.8
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.3.5
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: nix_stable_25_05
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.4.3
   origversion: null
   status: outdated
   summary: Tool for configurable targeted scanning
