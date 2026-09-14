@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,128 · **Forks**: 3,857 · **Open issues**: 2,956 · **Contributors**: 256
+- **Stars**: 31,141 · **Forks**: 3,858 · **Open issues**: 2,956 · **Contributors**: 256
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 24 | 12 | 12 | 5 | 44 |
-| last60d | 2026-07-15 | 1 | 63 | 33 | 40 | 9 | 104 |
-| 90d | 2026-06-15 | 3 | 101 | 40 | 63 | 13 | 141 |
-| last180d | 2026-03-17 | 5 | 189 | 42 | 111 | 16 | 267 |
-| 360d | 2025-09-18 | 12 | 363 | 43 | 265 | 17 | 549 |
-| last720d | 2024-09-23 | 31 | 637 | 43 | 575 | 25 | 1173 |
+| 30d | 2026-08-15 | 0 | 23 | 11 | 11 | 5 | 38 |
+| last60d | 2026-07-16 | 1 | 63 | 33 | 38 | 9 | 95 |
+| 90d | 2026-06-16 | 3 | 99 | 40 | 63 | 13 | 129 |
+| last180d | 2026-03-18 | 5 | 189 | 42 | 111 | 16 | 248 |
+| 360d | 2025-09-19 | 12 | 363 | 43 | 265 | 17 | 539 |
+| last720d | 2024-09-24 | 31 | 637 | 43 | 574 | 25 | 1165 |
 
 ## Release assets
 
@@ -79,17 +79,6 @@ Lowest-scoring checks:
 | [nuclei_3.11.1_windows_386.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_386.zip) | 42.0 MiB | `native/win/x64` |
 | [nuclei_3.11.1_windows_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip) | 43.9 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **43** distros on [repology.org](https://repology.org/project/nuclei). **13** are ✅ on the latest upstream release, **27** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `3.11.1` | ✅ latest |
-| Fedora rawhide | `3.11.0` | ⚠️ outdated |
-| Nix unstable | `3.11.1` | ✅ latest |
-| Alpine edge | `3.11.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `nuclei` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -99,4 +88,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:50:33Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:46:05Z._
