@@ -4,7 +4,7 @@
 
 Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
 
-[![x-cmd/install — nuclei Code Quality Monitoring Repo Card](https://repo.x-cmd.io/nuclei.svg)](https://x-cmd.com/install/nuclei)
+[![x-cmd/install — nuclei Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/nuclei.svg)](https://x-cmd.com/install/nuclei)
 
 ## Install
 
@@ -14,14 +14,14 @@ x install nuclei
 
 ## Code insight
 
-Total: **129,238** lines of code across **1191** files in the top 5 languages.
+Total: **132,044** lines of code across **1220** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 115,844 | 13,798 | 17,945 | 862 |
-| Yaml | 8,043 | 444 | 1,085 | 289 |
-| Json | 3,166 | 0 | 1 | 7 |
-| TypeScript | 1,437 | 2,556 | 1,208 | 32 |
+| Go | 118,506 | 14,230 | 18,370 | 888 |
+| Yaml | 8,106 | 444 | 1,089 | 291 |
+| Json | 3,216 | 0 | 1 | 7 |
+| TypeScript | 1,468 | 2,641 | 1,238 | 33 |
 | Makefile | 252 | 11 | 40 | 1 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-09-21
+- **Last commit**: 2026-09-22
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 31,415 · **Forks**: 3,878 · **Open issues**: 2,963 · **Contributors**: 256
+- **Stars**: 31,445 · **Forks**: 3,884 · **Open issues**: 2,970 · **Contributors**: 256
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2795 · **Open PRs**: 43 · **Closed issues**: 2902 · **Open issues**: 61 · **Commits**: 6553
+- **Releases**: 147 · **Merged PRs**: 2799 · **Open PRs**: 44 · **Closed issues**: 2906 · **Open issues**: 64 · **Commits**: 6585
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 14 | 8 | 10 | 44 |
-| last60d | 2026-07-24 | 1 | 52 | 21 | 31 | 15 | 69 |
-| 90d | 2026-06-24 | 3 | 87 | 39 | 50 | 19 | 128 |
-| last180d | 2026-03-26 | 5 | 175 | 42 | 109 | 22 | 243 |
-| 360d | 2025-09-27 | 12 | 362 | 43 | 260 | 23 | 538 |
-| last720d | 2024-10-02 | 29 | 634 | 43 | 572 | 31 | 1168 |
+| 30d | 2026-08-24 | 0 | 28 | 15 | 11 | 13 | 69 |
+| last60d | 2026-07-25 | 1 | 53 | 22 | 32 | 19 | 94 |
+| 90d | 2026-06-25 | 3 | 91 | 39 | 53 | 22 | 153 |
+| last180d | 2026-03-27 | 5 | 178 | 43 | 112 | 26 | 268 |
+| 360d | 2025-09-28 | 12 | 365 | 44 | 263 | 27 | 563 |
+| last720d | 2024-10-03 | 29 | 638 | 44 | 575 | 35 | 1200 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T04:42:36Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T04:40:16Z._

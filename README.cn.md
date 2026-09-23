@@ -4,7 +4,7 @@
 
 Nuclei is a fast, customizable vulnerability scanner powered by the global security community and built on a simple YAML-based DSL, enabling collaboration to tackle trending vulnerabilities on the internet. It helps you find vulnerabilities in your applications, APIs, networks, DNS, and cloud configurations.
 
-[![x-cmd/install — nuclei Code Quality Monitoring Repo Card](https://repo.x-cmd.io/nuclei.svg?lang=zh)](https://x-cmd.com/install/nuclei)
+[![x-cmd/install — nuclei Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/nuclei.svg?lang=zh)](https://x-cmd.com/install/nuclei)
 
 ## 安装
 
@@ -14,14 +14,14 @@ x install nuclei
 
 ## 代码洞察
 
-合计: **129,238** 行代码（覆盖前 5 种语言、共 **1191** 个文件）。
+合计: **132,044** 行代码（覆盖前 5 种语言、共 **1220** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Go | 115,844 | 13,798 | 17,945 | 862 |
-| Yaml | 8,043 | 444 | 1,085 | 289 |
-| Json | 3,166 | 0 | 1 | 7 |
-| TypeScript | 1,437 | 2,556 | 1,208 | 32 |
+| Go | 118,506 | 14,230 | 18,370 | 888 |
+| Yaml | 8,106 | 444 | 1,089 | 291 |
+| Json | 3,216 | 0 | 1 | 7 |
+| TypeScript | 1,468 | 2,641 | 1,238 | 33 |
 | Makefile | 252 | 11 | 40 | 1 |
 
 ## OpenSSF Scorecard 评分
@@ -43,27 +43,27 @@ x install nuclei
 ## 发布
 
 - **最新版本**: `v3.11.1` (2026-08-08)
-- **最近提交**: 2026-09-21
+- **最近提交**: 2026-09-22
 - **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 31,415 · **Fork**: 3,878 · **开放 issue**: 2,963 · **贡献者**: 256
+- **Star**: 31,445 · **Fork**: 3,884 · **开放 issue**: 2,970 · **贡献者**: 256
 
 ## 累计统计
 
-- **发布数**: 147 · **已合并 PR**: 2795 · **开放 PR**: 43 · **已关闭 issue**: 2902 · **开放 issue**: 61 · **提交数**: 6553
+- **发布数**: 147 · **已合并 PR**: 2799 · **开放 PR**: 44 · **已关闭 issue**: 2906 · **开放 issue**: 64 · **提交数**: 6585
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 26 | 14 | 8 | 10 | 44 |
-| last60d | 2026-07-24 | 1 | 52 | 21 | 31 | 15 | 69 |
-| 90d | 2026-06-24 | 3 | 87 | 39 | 50 | 19 | 128 |
-| last180d | 2026-03-26 | 5 | 175 | 42 | 109 | 22 | 243 |
-| 360d | 2025-09-27 | 12 | 362 | 43 | 260 | 23 | 538 |
-| last720d | 2024-10-02 | 29 | 634 | 43 | 572 | 31 | 1168 |
+| 30d | 2026-08-24 | 0 | 28 | 15 | 11 | 13 | 69 |
+| last60d | 2026-07-25 | 1 | 53 | 22 | 32 | 19 | 94 |
+| 90d | 2026-06-25 | 3 | 91 | 39 | 53 | 22 | 153 |
+| last180d | 2026-03-27 | 5 | 178 | 43 | 112 | 26 | 268 |
+| 360d | 2025-09-28 | 12 | 365 | 44 | 263 | 27 | 563 |
+| last720d | 2024-10-03 | 29 | 638 | 44 | 575 | 35 | 1200 |
 
 ## Release 资产
 
@@ -88,4 +88,4 @@ nuclei 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T04:42:36Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:40:18Z._
