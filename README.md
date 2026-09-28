@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 31,554 · **Forks**: 3,897 · **Open issues**: 2,975 · **Contributors**: 257
+- **Stars**: 31,580 · **Forks**: 3,901 · **Open issues**: 2,976 · **Contributors**: 257
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2805 · **Open PRs**: 45 · **Closed issues**: 2914 · **Open issues**: 61 · **Commits**: 6600
+- **Releases**: 147 · **Merged PRs**: 2805 · **Open PRs**: 47 · **Closed issues**: 2914 · **Open issues**: 62 · **Commits**: 6600
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-28 | 0 | 33 | 13 | 19 | 10 | 80 |
-| last60d | 2026-07-29 | 1 | 55 | 21 | 36 | 13 | 105 |
-| 90d | 2026-06-29 | 3 | 94 | 40 | 60 | 19 | 164 |
-| last180d | 2026-03-31 | 5 | 180 | 44 | 117 | 23 | 279 |
-| 360d | 2025-10-02 | 12 | 370 | 45 | 271 | 24 | 574 |
-| last720d | 2024-10-07 | 29 | 639 | 45 | 575 | 32 | 1214 |
+| 30d | 2026-08-29 | 0 | 33 | 15 | 19 | 11 | 62 |
+| last60d | 2026-07-30 | 1 | 55 | 22 | 36 | 14 | 98 |
+| 90d | 2026-06-30 | 3 | 93 | 42 | 60 | 20 | 155 |
+| last180d | 2026-04-01 | 5 | 180 | 46 | 114 | 24 | 273 |
+| 360d | 2025-10-03 | 12 | 369 | 47 | 271 | 25 | 568 |
+| last720d | 2024-10-08 | 29 | 638 | 47 | 572 | 33 | 1212 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260927.yml` · 2026-09-27T05:12:39Z._
+_Snapshot: `data/card/260928.yml` · 2026-09-28T05:13:30Z._
