@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-10-14
+- **Last commit**: 2026-10-17
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 32,074 · **Forks**: 3,965 · **Open issues**: 3,013 · **Contributors**: 258
+- **Stars**: 32,095 · **Forks**: 3,969 · **Open issues**: 3,013 · **Contributors**: 259
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2830 · **Open PRs**: 70 · **Closed issues**: 2943 · **Open issues**: 70 · **Commits**: 6693
+- **Releases**: 147 · **Merged PRs**: 2831 · **Open PRs**: 72 · **Closed issues**: 2944 · **Open issues**: 69 · **Commits**: 6694
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-17 | 0 | 35 | 33 | 31 | 18 | 91 |
-| last60d | 2026-08-18 | 0 | 61 | 43 | 50 | 22 | 150 |
-| 90d | 2026-07-19 | 1 | 104 | 61 | 76 | 28 | 210 |
-| last180d | 2026-04-20 | 4 | 186 | 69 | 133 | 34 | 314 |
-| 360d | 2025-10-22 | 12 | 376 | 70 | 287 | 35 | 596 |
-| last720d | 2024-10-27 | 28 | 647 | 70 | 575 | 41 | 1272 |
+| 30d | 2026-09-18 | 0 | 35 | 33 | 31 | 18 | 62 |
+| last60d | 2026-08-19 | 0 | 62 | 45 | 50 | 22 | 144 |
+| 90d | 2026-07-20 | 1 | 103 | 63 | 76 | 28 | 176 |
+| last180d | 2026-04-21 | 4 | 187 | 71 | 134 | 33 | 310 |
+| 360d | 2025-10-23 | 12 | 376 | 72 | 287 | 34 | 583 |
+| last720d | 2024-10-28 | 28 | 644 | 72 | 575 | 40 | 1273 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261017.yml` · 2026-10-17T04:12:24Z._
+_Snapshot: `data/card/261018.yml` · 2026-10-18T04:19:11Z._
