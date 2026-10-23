@@ -48,22 +48,22 @@ x install nuclei
 
 ## 流行度
 
-- **Star**: 32,206 · **Fork**: 3,933 · **开放 issue**: 3,021 · **贡献者**: 259
+- **Star**: 32,241 · **Fork**: 3,934 · **开放 issue**: 3,022 · **贡献者**: 259
 
 ## 累计统计
 
-- **发布数**: 147 · **已合并 PR**: 2837 · **开放 PR**: 76 · **已关闭 issue**: 2946 · **开放 issue**: 75 · **提交数**: 6711
+- **发布数**: 147 · **已合并 PR**: 2837 · **开放 PR**: 78 · **已关闭 issue**: 2946 · **开放 issue**: 76 · **提交数**: 6711
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 36 | 35 | 30 | 23 | 75 |
-| last60d | 2026-08-23 | 0 | 67 | 48 | 50 | 28 | 157 |
-| 90d | 2026-07-24 | 1 | 93 | 55 | 73 | 34 | 189 |
-| last180d | 2026-04-25 | 4 | 190 | 75 | 136 | 39 | 323 |
-| 360d | 2025-10-27 | 12 | 379 | 76 | 289 | 40 | 596 |
-| last720d | 2024-11-01 | 28 | 645 | 76 | 575 | 46 | 1281 |
+| 30d | 2026-09-23 | 0 | 34 | 37 | 30 | 24 | 75 |
+| last60d | 2026-08-24 | 0 | 65 | 50 | 50 | 29 | 157 |
+| 90d | 2026-07-25 | 1 | 90 | 57 | 71 | 35 | 189 |
+| last180d | 2026-04-26 | 4 | 190 | 77 | 136 | 40 | 323 |
+| 360d | 2025-10-28 | 12 | 378 | 78 | 287 | 41 | 596 |
+| last720d | 2024-11-02 | 28 | 645 | 78 | 575 | 47 | 1280 |
 
 ## Release 资产
 
@@ -79,6 +79,17 @@ x install nuclei
 | [nuclei_3.11.1_windows_386.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_386.zip) | 42.0 MiB | `native/win/x64` |
 | [nuclei_3.11.1_windows_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip) | 43.9 MiB | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/nuclei) 上共有 **44** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**23** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Homebrew | `3.11.1` | ✅ latest |
+| Fedora rawhide | `3.11.0` | ⚠️ outdated |
+| Nix unstable | `3.11.1` | ✅ latest |
+| Alpine edge | `3.11.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 nuclei 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `nuclei` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -88,4 +99,4 @@ nuclei 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:30:26Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:35:23Z._
