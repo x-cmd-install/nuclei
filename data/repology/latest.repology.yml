@@ -376,36 +376,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: parrot
-  subrepo: parrot/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei-debug
@@ -514,6 +484,36 @@
     - lx@shellcodes.org
   categories:
     - security
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
   vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: security/nuclei
