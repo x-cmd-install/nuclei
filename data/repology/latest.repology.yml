@@ -1,3 +1,25 @@
+- repo: stalix
+  srcname: bin/nuclei
+  binname: bin/nuclei
+  visiblename: bin/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: stalix_dev
+  srcname: bin/nuclei
+  binname: bin/nuclei
+  visiblename: bin/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -114,6 +136,15 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
+- repo: scoop
+  subrepo: main
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: epel_10
   srcname: nuclei
   binnames:
@@ -335,15 +366,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
-- repo: scoop
-  subrepo: main
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: slackbuilds
   srcname: misc/nuclei
   visiblename: misc/nuclei
@@ -354,34 +376,27 @@
     - danix@danix.xyz
   categories:
     - misc
-- repo: stalix
-  srcname: bin/nuclei
-  binname: bin/nuclei
-  visiblename: bin/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
   maintainers:
-    - anton@samokhvalov.xyz
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
   categories:
-    - bin
-- repo: stalix_dev
-  srcname: bin/nuclei
-  binname: bin/nuclei
-  visiblename: bin/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
+    - golang
+  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei-debug
   visiblename: nuclei-debug
-  version: v3.6.2.r330.gd63d022
-  origversion: 2:v3.6.2.r330.gd63d022-1
+  version: v3.11.1.r392.ge21e636
+  origversion: 2:v3.11.1.r392.ge21e636-1
   status: outdated
   summary: Detached debugging symbols for nuclei
   licenses:
@@ -391,8 +406,8 @@
   srcname: nuclei
   binname: nuclei
   visiblename: nuclei
-  version: v3.11.1.r160.ga14b3de
-  origversion: 2:v3.11.1.r160.ga14b3de-1
+  version: v3.11.1.r392.ge21e636
+  origversion: 2:v3.11.1.r392.ge21e636-1
   status: outdated
   summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
   licenses:
@@ -500,21 +515,6 @@
   categories:
     - golang
   vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: security/nuclei
   binname: nuclei
@@ -533,7 +533,7 @@
   binname: nuclei
   visiblename: security/nuclei
   version: 3.6.2
-  origversion: 3.6.2nb11
+  origversion: 3.6.2nb12
   status: outdated
   summary: Fast and customizable vulnerability scanner
   maintainers:
