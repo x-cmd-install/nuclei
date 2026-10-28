@@ -1,12 +1,3 @@
-- repo: chromebrew
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  summary: Fast, customizable vulnerability scanner
-  licenses:
-    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -91,12 +82,31 @@
   srcname: nuclei-git
   binname: nuclei-git
   visiblename: nuclei-git
-  version: 3.11.1.r6700.10f1967
-  origversion: 3.11.1.r6700.10f1967-1
+  version: 3.11.1.r6990.26ce6d2
+  origversion: 3.11.1.r6990.26ce6d2-1
   status: rolling
   summary: Fast and customizable vulnerability scanner
   maintainers:
     - leonidlednev@aur
+  licenses:
+    - MIT
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei
+  visiblename: net-analyzer/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
+- repo: chromebrew
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  summary: Fast, customizable vulnerability scanner
   licenses:
     - MIT
 - repo: epel_9
@@ -189,16 +199,6 @@
     - dutra@freebsd.org
   categories:
     - security
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei
-  visiblename: net-analyzer/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
 - repo: gentoo_ovl_pentoo
   srcname: net-analyzer/nuclei
   visiblename: net-analyzer/nuclei
@@ -486,7 +486,7 @@
     - security
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nuclei
   binnames:
     - nuclei
@@ -501,7 +501,7 @@
     - golang
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
