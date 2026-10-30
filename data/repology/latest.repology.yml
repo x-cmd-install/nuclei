@@ -90,16 +90,6 @@
     - leonidlednev@aur
   licenses:
     - MIT
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei
-  visiblename: net-analyzer/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
 - repo: chromebrew
   srcname: nuclei
   visiblename: nuclei
@@ -199,6 +189,16 @@
     - dutra@freebsd.org
   categories:
     - security
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei
+  visiblename: net-analyzer/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
 - repo: gentoo_ovl_pentoo
   srcname: net-analyzer/nuclei
   visiblename: net-analyzer/nuclei
@@ -376,6 +376,34 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: parrot
+  subrepo: parrot/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: openbsd
+  srcname: security/nuclei
+  binname: nuclei
+  visiblename: security/nuclei
+  version: 3.3.9
+  origversion: 3.3.9p0
+  status: outdated
+  summary: fast and customizable vulnerability scanner
+  maintainers:
+    - lx@shellcodes.org
+  categories:
+    - security
+  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei-debug
@@ -422,17 +450,6 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei-bin
-  visiblename: net-analyzer/nuclei-bin
-  version: 3.4.10
-  origversion: null
-  status: outdated
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
-  vulnerable: true
 - repo: nix_stable_24_05
   srcname: nuclei
   visiblename: nuclei
@@ -445,6 +462,17 @@
     - misaka13514@gmail.com
   licenses:
     - MIT
+  vulnerable: true
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei-bin
+  visiblename: net-analyzer/nuclei-bin
+  version: 3.4.10
+  origversion: null
+  status: outdated
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
   vulnerable: true
 - repo: nix_stable_24_11
   srcname: nuclei
@@ -472,36 +500,8 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: openbsd
-  srcname: security/nuclei
-  binname: nuclei
-  visiblename: security/nuclei
-  version: 3.3.9
-  origversion: 3.3.9p0
-  status: outdated
-  summary: fast and customizable vulnerability scanner
-  maintainers:
-    - lx@shellcodes.org
-  categories:
-    - security
-  vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
