@@ -14,11 +14,11 @@ x install nuclei
 
 ## Code insight
 
-Total: **153,464** lines of code across **1323** files in the top 5 languages.
+Total: **153,702** lines of code across **1326** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 139,812 | 16,038 | 20,840 | 986 |
+| Go | 140,050 | 16,076 | 20,866 | 989 |
 | Yaml | 8,167 | 445 | 1,098 | 294 |
 | Json | 3,224 | 0 | 1 | 7 |
 | TypeScript | 1,511 | 2,782 | 1,270 | 35 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-10-29
+- **Last commit**: 2026-10-30
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 32,449 · **Forks**: 3,955 · **Open issues**: 3,060 · **Contributors**: 285
+- **Stars**: 32,483 · **Forks**: 3,958 · **Open issues**: 3,063 · **Contributors**: 285
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2906 · **Open PRs**: 32 · **Closed issues**: 3008 · **Open issues**: 52 · **Commits**: 7026
+- **Releases**: 147 · **Merged PRs**: 2908 · **Open PRs**: 32 · **Closed issues**: 3011 · **Open issues**: 52 · **Commits**: 7032
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 0 | 71 | 9 | 68 | 8 | 185 |
-| last60d | 2026-08-31 | 0 | 123 | 10 | 104 | 13 | 323 |
-| 90d | 2026-08-01 | 1 | 149 | 11 | 119 | 14 | 364 |
-| last180d | 2026-05-03 | 4 | 256 | 30 | 193 | 19 | 512 |
-| 360d | 2025-11-04 | 12 | 438 | 32 | 335 | 20 | 771 |
-| last720d | 2024-11-09 | 28 | 707 | 32 | 628 | 26 | 1587 |
+| 30d | 2026-10-01 | 0 | 71 | 9 | 71 | 8 | 189 |
+| last60d | 2026-09-01 | 0 | 122 | 10 | 107 | 12 | 327 |
+| 90d | 2026-08-02 | 1 | 150 | 11 | 122 | 14 | 368 |
+| last180d | 2026-05-04 | 4 | 254 | 30 | 193 | 19 | 516 |
+| 360d | 2025-11-05 | 12 | 437 | 32 | 338 | 20 | 775 |
+| last720d | 2024-11-10 | 28 | 709 | 32 | 631 | 26 | 1593 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:34:24Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:22:03Z._
