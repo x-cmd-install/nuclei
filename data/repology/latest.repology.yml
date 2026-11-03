@@ -1,3 +1,15 @@
+- repo: nix_stable_25_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.8.0
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -281,18 +293,6 @@
     - MIT
   categories:
     - security
-- repo: nix_stable_25_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.8.0
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: nuclei
   visiblename: nuclei
@@ -378,23 +378,23 @@
     - bin
 - repo: blackarch
   srcname: nuclei
-  binname: nuclei
-  visiblename: nuclei
-  version: v3.11.1.r579.gdf57ae6
-  origversion: 2:v3.11.1.r579.gdf57ae6-1
-  status: outdated
-  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: blackarch
-  srcname: nuclei
   binname: nuclei-debug
   visiblename: nuclei-debug
   version: v3.11.1.r579.gdf57ae6
   origversion: 2:v3.11.1.r579.gdf57ae6-1
   status: outdated
   summary: Detached debugging symbols for nuclei
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: blackarch
+  srcname: nuclei
+  binname: nuclei
+  visiblename: nuclei
+  version: v3.11.1.r579.gdf57ae6
+  origversion: 2:v3.11.1.r579.gdf57ae6-1
+  status: outdated
+  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
   licenses:
     - MIT
   vulnerable: true
@@ -486,7 +486,7 @@
     - security
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nuclei
   binnames:
     - nuclei
@@ -501,7 +501,7 @@
     - golang
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
