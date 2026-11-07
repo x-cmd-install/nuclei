@@ -1,7 +1,64 @@
-- repo: nix_stable_25_11
+- repo: blackarch
+  srcname: nuclei
+  binname: nuclei-debug
+  visiblename: nuclei-debug
+  version: v3.11.1.r579.gdf57ae6
+  origversion: 2:v3.11.1.r579.gdf57ae6-1
+  status: outdated
+  summary: Detached debugging symbols for nuclei
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: blackarch
+  srcname: nuclei
+  binname: nuclei
+  visiblename: nuclei
+  version: v3.11.1.r579.gdf57ae6
+  origversion: 2:v3.11.1.r579.gdf57ae6-1
+  status: outdated
+  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: chimera
+  subrepo: user
+  srcname: nuclei
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.7.0
+  origversion: 3.7.0-r6
+  status: outdated
+  summary: Web vulnerability scanner
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: chimera
+  subrepo: user
+  srcname: nuclei
+  binname: nuclei-doc
+  visiblename: nuclei-doc
+  version: 3.7.0
+  origversion: 3.7.0-r6
+  status: outdated
+  summary: Web vulnerability scanner (documentation)
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei-bin
+  visiblename: net-analyzer/nuclei-bin
+  version: 3.4.10
+  origversion: null
+  status: outdated
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
+  vulnerable: true
+- repo: nix_stable_24_05
   srcname: nuclei
   visiblename: nuclei
-  version: 3.8.0
+  version: 3.2.8
   origversion: null
   status: outdated
   summary: Tool for configurable targeted scanning
@@ -10,6 +67,89 @@
     - misaka13514@gmail.com
   licenses:
     - MIT
+  vulnerable: true
+- repo: nix_stable_24_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.3.5
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
+- repo: openbsd
+  srcname: security/nuclei
+  binname: nuclei
+  visiblename: security/nuclei
+  version: 3.3.9
+  origversion: 3.3.9p0
+  status: outdated
+  summary: fast and customizable vulnerability scanner
+  maintainers:
+    - lx@shellcodes.org
+  categories:
+    - security
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: pkgsrc_2026_2
+  srcname: security/nuclei
+  binname: nuclei
+  visiblename: security/nuclei
+  version: 3.6.2
+  origversion: 3.6.2nb7
+  status: outdated
+  summary: Fast and customizable vulnerability scanner
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - security
+  vulnerable: true
+- repo: pkgsrc_2026_3
+  srcname: security/nuclei
+  binname: nuclei
+  visiblename: security/nuclei
+  version: 3.6.2
+  origversion: 3.6.2nb12
+  status: outdated
+  summary: Fast and customizable vulnerability scanner
+  maintainers:
+    - leot@netbsd.org
+  categories:
+    - security
+  vulnerable: true
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -21,15 +161,6 @@
   summary: Vulnerability scanner built on a simple YAML-based DSL
   maintainers:
     - 3426-spameier@users.gitlab.alpinelinux.org
-  licenses:
-    - MIT
-- repo: scoop
-  subrepo: main
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
   licenses:
     - MIT
 - repo: alpine_edge
@@ -135,16 +266,6 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
-- repo: slackbuilds
-  srcname: misc/nuclei
-  visiblename: misc/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - danix@danix.xyz
-  categories:
-    - misc
 - repo: epel_10
   srcname: nuclei
   binnames:
@@ -293,6 +414,18 @@
     - MIT
   categories:
     - security
+- repo: nix_stable_25_11
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.8.0
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: nuclei
   visiblename: nuclei
@@ -354,6 +487,25 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
+- repo: scoop
+  subrepo: main
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: misc/nuclei
+  visiblename: misc/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - danix@danix.xyz
+  categories:
+    - misc
 - repo: stalix
   srcname: bin/nuclei
   binname: bin/nuclei
@@ -376,89 +528,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: blackarch
-  srcname: nuclei
-  binname: nuclei-debug
-  visiblename: nuclei-debug
-  version: v3.11.1.r579.gdf57ae6
-  origversion: 2:v3.11.1.r579.gdf57ae6-1
-  status: outdated
-  summary: Detached debugging symbols for nuclei
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: blackarch
-  srcname: nuclei
-  binname: nuclei
-  visiblename: nuclei
-  version: v3.11.1.r579.gdf57ae6
-  origversion: 2:v3.11.1.r579.gdf57ae6-1
-  status: outdated
-  summary: A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: chimera
-  subrepo: user
-  srcname: nuclei
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.7.0
-  origversion: 3.7.0-r6
-  status: outdated
-  summary: Web vulnerability scanner
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: chimera
-  subrepo: user
-  srcname: nuclei
-  binname: nuclei-doc
-  visiblename: nuclei-doc
-  version: 3.7.0
-  origversion: 3.7.0-r6
-  status: outdated
-  summary: Web vulnerability scanner (documentation)
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei-bin
-  visiblename: net-analyzer/nuclei-bin
-  version: 3.4.10
-  origversion: null
-  status: outdated
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.2.8
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: nix_stable_24_11
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.3.5
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: nix_stable_25_05
   srcname: nuclei
   visiblename: nuclei
@@ -471,73 +540,4 @@
     - misaka13514@gmail.com
   licenses:
     - MIT
-  vulnerable: true
-- repo: openbsd
-  srcname: security/nuclei
-  binname: nuclei
-  visiblename: security/nuclei
-  version: 3.3.9
-  origversion: 3.3.9p0
-  status: outdated
-  summary: fast and customizable vulnerability scanner
-  maintainers:
-    - lx@shellcodes.org
-  categories:
-    - security
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: pkgsrc_2026_2
-  srcname: security/nuclei
-  binname: nuclei
-  visiblename: security/nuclei
-  version: 3.6.2
-  origversion: 3.6.2nb7
-  status: outdated
-  summary: Fast and customizable vulnerability scanner
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - security
-  vulnerable: true
-- repo: pkgsrc_2026_3
-  srcname: security/nuclei
-  binname: nuclei
-  visiblename: security/nuclei
-  version: 3.6.2
-  origversion: 3.6.2nb12
-  status: outdated
-  summary: Fast and customizable vulnerability scanner
-  maintainers:
-    - leot@netbsd.org
-  categories:
-    - security
   vulnerable: true
