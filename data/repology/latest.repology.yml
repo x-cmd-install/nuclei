@@ -82,8 +82,8 @@
   srcname: nuclei-git
   binname: nuclei-git
   visiblename: nuclei-git
-  version: 3.11.1.r6990.26ce6d2
-  origversion: 3.11.1.r6990.26ce6d2-1
+  version: 3.11.1.r7173.b2ea1489fd
+  origversion: 3.11.1.r7173.b2ea1489fd-1
   status: rolling
   summary: Fast and customizable vulnerability scanner
   maintainers:
@@ -182,7 +182,7 @@
   binname: nuclei
   visiblename: security/nuclei
   version: 3.11.1
-  origversion: 3.11.1_2
+  origversion: 3.11.1_3
   status: newest
   summary: Fast vulnerability scanner
   maintainers:
@@ -328,7 +328,7 @@
   binname: nuclei
   visiblename: security/nuclei
   version: 3.11.1
-  origversion: 3.11.1nb2
+  origversion: 3.11.1nb3
   status: newest
   summary: Fast and customizable vulnerability scanner
   maintainers:
@@ -376,49 +376,6 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: nix_stable_24_05
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.2.8
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei
@@ -476,6 +433,19 @@
   categories:
     - net-analyzer
   vulnerable: true
+- repo: nix_stable_24_05
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.2.8
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
 - repo: nix_stable_24_11
   srcname: nuclei
   visiblename: nuclei
@@ -514,6 +484,36 @@
     - lx@shellcodes.org
   categories:
     - security
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
   vulnerable: true
 - repo: pkgsrc_2026_2
   srcname: security/nuclei
