@@ -1,3 +1,22 @@
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei
+  visiblename: net-analyzer/nuclei
+  version: 3.9.0
+  origversion: null
+  status: legacy
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
+- repo: scoop
+  subrepo: main
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -114,6 +133,16 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
+- repo: slackbuilds
+  srcname: misc/nuclei
+  visiblename: misc/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - danix@danix.xyz
+  categories:
+    - misc
 - repo: epel_10
   srcname: nuclei
   binnames:
@@ -195,16 +224,6 @@
   version: 3.11.1
   origversion: null
   status: newest
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei
-  visiblename: net-analyzer/nuclei
-  version: 3.9.0
-  origversion: null
-  status: legacy
   maintainers:
     - unknown@pentoo.ch
   categories:
@@ -306,7 +325,7 @@
     - nuclei-debugsource
   visiblename: nuclei
   version: 3.11.0
-  origversion: 3.11.0-1.11
+  origversion: 3.11.0-1.13
   status: outdated
   summary: Fast, customizable vulnerability scanner
   licenses:
@@ -335,25 +354,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
-- repo: scoop
-  subrepo: main
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: misc/nuclei
-  visiblename: misc/nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  maintainers:
-    - danix@danix.xyz
-  categories:
-    - misc
 - repo: stalix
   srcname: bin/nuclei
   binname: bin/nuclei
@@ -486,7 +486,7 @@
     - security
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: nuclei
   binnames:
     - nuclei
@@ -501,7 +501,7 @@
     - golang
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
