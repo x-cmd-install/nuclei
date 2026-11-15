@@ -14,11 +14,11 @@ x install nuclei
 
 ## Code insight
 
-Total: **164,266** lines of code across **1400** files in the top 5 languages.
+Total: **164,835** lines of code across **1404** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 150,471 | 17,420 | 22,377 | 1060 |
+| Go | 151,040 | 17,471 | 22,448 | 1064 |
 | Yaml | 8,205 | 445 | 1,106 | 295 |
 | Json | 3,224 | 0 | 1 | 7 |
 | TypeScript | 1,616 | 3,095 | 1,350 | 37 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 32,894 · **Forks**: 3,998 · **Open issues**: 3,126 · **Contributors**: 290
+- **Stars**: 32,927 · **Forks**: 4,005 · **Open issues**: 3,127 · **Contributors**: 290
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2962 · **Open PRs**: 45 · **Closed issues**: 3064 · **Open issues**: 62 · **Commits**: 7174
+- **Releases**: 147 · **Merged PRs**: 2964 · **Open PRs**: 44 · **Closed issues**: 3066 · **Open issues**: 61 · **Commits**: 7184
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 92 | 24 | 95 | 20 | 213 |
-| last60d | 2026-09-15 | 0 | 157 | 25 | 145 | 22 | 365 |
-| 90d | 2026-08-16 | 0 | 190 | 25 | 165 | 24 | 445 |
-| last180d | 2026-05-18 | 4 | 297 | 43 | 238 | 27 | 581 |
-| 360d | 2025-11-19 | 10 | 478 | 45 | 379 | 30 | 847 |
-| last720d | 2024-11-24 | 27 | 746 | 45 | 665 | 35 | 1707 |
+| 30d | 2026-10-16 | 0 | 94 | 24 | 97 | 19 | 191 |
+| last60d | 2026-09-16 | 0 | 158 | 25 | 145 | 21 | 346 |
+| 90d | 2026-08-17 | 0 | 191 | 25 | 165 | 23 | 448 |
+| last180d | 2026-05-19 | 4 | 298 | 43 | 239 | 26 | 580 |
+| 360d | 2025-11-20 | 10 | 478 | 44 | 380 | 29 | 845 |
+| last720d | 2024-11-25 | 27 | 743 | 44 | 666 | 34 | 1717 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:14:43Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:13:09Z._
