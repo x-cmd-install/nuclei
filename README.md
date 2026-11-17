@@ -14,13 +14,13 @@ x install nuclei
 
 ## Code insight
 
-Total: **164,835** lines of code across **1404** files in the top 5 languages.
+Total: **164,991** lines of code across **1406** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 151,040 | 17,471 | 22,448 | 1064 |
+| Go | 151,195 | 17,495 | 22,481 | 1066 |
 | Yaml | 8,205 | 445 | 1,106 | 295 |
-| Json | 3,224 | 0 | 1 | 7 |
+| Json | 3,225 | 0 | 1 | 7 |
 | TypeScript | 1,616 | 3,095 | 1,350 | 37 |
 | Makefile | 252 | 11 | 40 | 1 |
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-11-15
+- **Last commit**: 2026-11-16
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 32,963 · **Forks**: 4,018 · **Open issues**: 3,129 · **Contributors**: 290
+- **Stars**: 33,024 · **Forks**: 4,029 · **Open issues**: 3,137 · **Contributors**: 294
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2965 · **Open PRs**: 49 · **Closed issues**: 3066 · **Open issues**: 63 · **Commits**: 7185
+- **Releases**: 147 · **Merged PRs**: 2971 · **Open PRs**: 49 · **Closed issues**: 3073 · **Open issues**: 64 · **Commits**: 7196
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 0 | 94 | 29 | 97 | 21 | 192 |
-| last60d | 2026-09-17 | 0 | 158 | 30 | 144 | 23 | 347 |
-| 90d | 2026-08-18 | 0 | 191 | 30 | 165 | 25 | 449 |
-| last180d | 2026-05-20 | 4 | 298 | 48 | 239 | 28 | 581 |
-| 360d | 2025-11-21 | 10 | 478 | 49 | 380 | 31 | 846 |
-| last720d | 2024-11-26 | 27 | 743 | 49 | 665 | 36 | 1708 |
+| 30d | 2026-10-18 | 0 | 99 | 28 | 103 | 22 | 199 |
+| last60d | 2026-09-18 | 0 | 162 | 30 | 151 | 24 | 354 |
+| 90d | 2026-08-19 | 0 | 197 | 30 | 172 | 26 | 456 |
+| last180d | 2026-05-21 | 4 | 304 | 48 | 246 | 29 | 588 |
+| 360d | 2025-11-22 | 10 | 484 | 49 | 387 | 32 | 853 |
+| last720d | 2024-11-27 | 27 | 748 | 49 | 669 | 37 | 1719 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **44** distros on [repology.org](https://repology.org/project/nuclei). **17** are ✅ on the latest upstream release, **23** are ⚠️ on an older version.
+Reported by **45** distros on [repology.org](https://repology.org/project/nuclei). **17** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T06:13:21Z._
+_Snapshot: `data/card/261117.yml` · 2026-11-17T07:54:13Z._
