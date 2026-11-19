@@ -1,3 +1,10 @@
+- repo: homebrew
+  srcname: nuclei
+  visiblename: nuclei
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: HTTP/DNS scanner configurable via YAML templates
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -11,6 +18,21 @@
     - 3426-spameier@users.gitlab.alpinelinux.org
   licenses:
     - MIT
+- repo: kali_rolling
+  subrepo: main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: 3.11.1-0kali1
+  status: newest
+  maintainers:
+    - devel@kali.org
+    - daniruiz@kali.org
+    - sophie@kali.org
+  categories:
+    - golang
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -45,7 +67,7 @@
   binname: nuclei
   visiblename: nuclei
   version: 3.11.1
-  origversion: 3.11.1-1
+  origversion: 3.11.1-2
   status: newest
   summary: template-based vulnerability scanner
   maintainers:
@@ -114,6 +136,15 @@
     - 0BSD AND Apache-2.0 AND BSD-2-Clause AND BSD-2-Clause-Views AND BSD-3-Clause AND GPL-2.0-only AND ISC AND MIT AND MPL-2.0 AND Sleepycat AND Unlicense
   categories:
     - Unspecified
+- repo: scoop
+  subrepo: main
+  binname: nuclei
+  visiblename: nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: epel_10
   srcname: nuclei
   binnames:
@@ -242,28 +273,6 @@
   origversion: null
   status: newest
   summary: HTTP/DNS scanner configurable via YAML templates
-- repo: homebrew
-  srcname: nuclei
-  visiblename: nuclei
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: HTTP/DNS scanner configurable via YAML templates
-- repo: kali_rolling
-  subrepo: main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: 3.11.1-0kali1
-  status: newest
-  maintainers:
-    - devel@kali.org
-    - daniruiz@kali.org
-    - sophie@kali.org
-  categories:
-    - golang
 - repo: macports
   srcname: security/nuclei
   binname: nuclei
@@ -351,15 +360,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - security
-- repo: scoop
-  subrepo: main
-  binname: nuclei
-  visiblename: nuclei
-  version: 3.11.1
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: slackbuilds
   srcname: misc/nuclei
   visiblename: misc/nuclei
