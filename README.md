@@ -14,11 +14,11 @@ x install nuclei
 
 ## Code insight
 
-Total: **164,991** lines of code across **1406** files in the top 5 languages.
+Total: **165,991** lines of code across **1411** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 151,195 | 17,495 | 22,481 | 1066 |
+| Go | 152,191 | 17,696 | 22,649 | 1071 |
 | Yaml | 8,205 | 445 | 1,106 | 295 |
 | Json | 3,225 | 0 | 1 | 7 |
 | TypeScript | 1,616 | 3,095 | 1,350 | 37 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-18
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,024 · **Forks**: 4,029 · **Open issues**: 3,137 · **Contributors**: 294
+- **Stars**: 33,101 · **Forks**: 4,035 · **Open issues**: 3,143 · **Contributors**: 296
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 2971 · **Open PRs**: 49 · **Closed issues**: 3073 · **Open issues**: 64 · **Commits**: 7196
+- **Releases**: 147 · **Merged PRs**: 2986 · **Open PRs**: 40 · **Closed issues**: 3086 · **Open issues**: 57 · **Commits**: 7237
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 99 | 28 | 103 | 22 | 199 |
-| last60d | 2026-09-18 | 0 | 162 | 30 | 151 | 24 | 354 |
-| 90d | 2026-08-19 | 0 | 197 | 30 | 172 | 26 | 456 |
-| last180d | 2026-05-21 | 4 | 304 | 48 | 246 | 29 | 588 |
-| 360d | 2025-11-22 | 10 | 484 | 49 | 387 | 32 | 853 |
-| last720d | 2024-11-27 | 27 | 748 | 49 | 669 | 37 | 1719 |
+| 30d | 2026-10-20 | 0 | 109 | 18 | 109 | 17 | 225 |
+| last60d | 2026-09-20 | 0 | 177 | 21 | 162 | 19 | 380 |
+| 90d | 2026-08-21 | 0 | 211 | 21 | 181 | 21 | 482 |
+| last180d | 2026-05-23 | 4 | 318 | 39 | 257 | 23 | 614 |
+| 360d | 2025-11-24 | 10 | 495 | 40 | 396 | 25 | 879 |
+| last720d | 2024-11-29 | 27 | 763 | 40 | 679 | 30 | 1758 |
 
 ## Release assets
 
@@ -85,7 +85,7 @@ Reported by **45** distros on [repology.org](https://repology.org/project/nuclei
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Homebrew | `3.11.1` | ✅ latest |
+| Homebrew | `HEAD` | 🔄 rolling |
 | Fedora rawhide | `3.11.0` | ⚠️ outdated |
 | Nix unstable | `3.11.1` | ✅ latest |
 | Alpine edge | `3.11.0` | ⚠️ outdated |
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T07:54:13Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:14:01Z._
