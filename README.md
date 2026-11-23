@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v3.11.1` (2026-08-08)
-- **Last commit**: 2026-11-21
+- **Last commit**: 2026-11-23
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 33,186 · **Forks**: 4,050 · **Open issues**: 3,204 · **Contributors**: 296
+- **Stars**: 33,212 · **Forks**: 4,053 · **Open issues**: 3,207 · **Contributors**: 296
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 3036 · **Open PRs**: 50 · **Closed issues**: 3140 · **Open issues**: 64 · **Commits**: 7368
+- **Releases**: 147 · **Merged PRs**: 3037 · **Open PRs**: 56 · **Closed issues**: 3140 · **Open issues**: 67 · **Commits**: 7369
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 153 | 28 | 151 | 25 | 204 |
-| last60d | 2026-09-23 | 0 | 218 | 31 | 209 | 27 | 415 |
-| 90d | 2026-08-24 | 0 | 259 | 31 | 232 | 29 | 543 |
-| last180d | 2026-05-26 | 4 | 364 | 49 | 308 | 31 | 682 |
-| 360d | 2025-11-27 | 10 | 543 | 50 | 447 | 33 | 946 |
-| last720d | 2024-12-02 | 27 | 805 | 50 | 731 | 37 | 1888 |
+| 30d | 2026-10-24 | 0 | 151 | 34 | 149 | 28 | 205 |
+| last60d | 2026-09-24 | 0 | 216 | 37 | 208 | 30 | 416 |
+| 90d | 2026-08-25 | 0 | 259 | 37 | 232 | 32 | 544 |
+| last180d | 2026-05-27 | 4 | 364 | 55 | 308 | 34 | 683 |
+| 360d | 2025-11-28 | 10 | 543 | 56 | 446 | 36 | 947 |
+| last720d | 2024-12-03 | 26 | 806 | 56 | 728 | 40 | 1878 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:36:04Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T07:44:24Z._
