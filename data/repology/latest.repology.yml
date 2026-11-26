@@ -1,3 +1,13 @@
+- repo: gentoo_ovl_pentoo
+  srcname: net-analyzer/nuclei
+  visiblename: net-analyzer/nuclei
+  version: 3.11.1
+  origversion: null
+  status: newest
+  maintainers:
+    - unknown@pentoo.ch
+  categories:
+    - net-analyzer
 - repo: alpine_edge
   subrepo: testing
   srcname: nuclei
@@ -24,16 +34,6 @@
     - 3426-spameier@users.gitlab.alpinelinux.org
   licenses:
     - MIT
-- repo: gentoo_ovl_pentoo
-  srcname: net-analyzer/nuclei
-  visiblename: net-analyzer/nuclei
-  version: 3.9.0
-  origversion: null
-  status: legacy
-  maintainers:
-    - unknown@pentoo.ch
-  categories:
-    - net-analyzer
 - repo: altsisyphus
   srcname: nuclei
   binnames:
@@ -218,9 +218,9 @@
 - repo: gentoo_ovl_pentoo
   srcname: net-analyzer/nuclei
   visiblename: net-analyzer/nuclei
-  version: 3.11.1
+  version: 3.9.0
   origversion: null
-  status: newest
+  status: legacy
   maintainers:
     - unknown@pentoo.ch
   categories:
@@ -392,6 +392,21 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: parrot
+  subrepo: parrot/main
+  srcname: nuclei
+  binnames:
+    - nuclei
+  visiblename: nuclei
+  version: 3.6.1
+  origversion: 3.6.1-0parrot1
+  status: outdated
+  maintainers:
+    - team@parrotsec.org
+    - palinuro@parrotsec.org
+  categories:
+    - golang
+  vulnerable: true
 - repo: blackarch
   srcname: nuclei
   binname: nuclei-debug
@@ -438,19 +453,6 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: nix_stable_25_05
-  srcname: nuclei
-  visiblename: nuclei
-  version: 3.4.3
-  origversion: null
-  status: outdated
-  summary: Tool for configurable targeted scanning
-  maintainers:
-    - mail@fabian-affolter.ch
-    - misaka13514@gmail.com
-  licenses:
-    - MIT
-  vulnerable: true
 - repo: gentoo_ovl_pentoo
   srcname: net-analyzer/nuclei-bin
   visiblename: net-analyzer/nuclei-bin
@@ -488,6 +490,19 @@
   licenses:
     - MIT
   vulnerable: true
+- repo: nix_stable_25_05
+  srcname: nuclei
+  visiblename: nuclei
+  version: 3.4.3
+  origversion: null
+  status: outdated
+  summary: Tool for configurable targeted scanning
+  maintainers:
+    - mail@fabian-affolter.ch
+    - misaka13514@gmail.com
+  licenses:
+    - MIT
+  vulnerable: true
 - repo: openbsd
   srcname: security/nuclei
   binname: nuclei
@@ -503,21 +518,6 @@
   vulnerable: true
 - repo: parrot
   subrepo: parrot-updates/main
-  srcname: nuclei
-  binnames:
-    - nuclei
-  visiblename: nuclei
-  version: 3.6.1
-  origversion: 3.6.1-0parrot1
-  status: outdated
-  maintainers:
-    - team@parrotsec.org
-    - palinuro@parrotsec.org
-  categories:
-    - golang
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
   srcname: nuclei
   binnames:
     - nuclei
