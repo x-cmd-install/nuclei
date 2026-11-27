@@ -14,11 +14,11 @@ x install nuclei
 
 ## Code insight
 
-Total: **173,053** lines of code across **1446** files in the top 5 languages.
+Total: **175,758** lines of code across **1464** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 159,220 | 19,036 | 24,307 | 1104 |
+| Go | 161,925 | 19,278 | 24,637 | 1122 |
 | Yaml | 8,238 | 445 | 1,113 | 297 |
 | Json | 3,225 | 0 | 1 | 7 |
 | TypeScript | 1,616 | 3,095 | 1,350 | 37 |
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 33,307 · **Forks**: 4,073 · **Open issues**: 3,215 · **Contributors**: 297
+- **Stars**: 33,348 · **Forks**: 4,079 · **Open issues**: 3,216 · **Contributors**: 301
 
 ## Totals (cumulative)
 
-- **Releases**: 147 · **Merged PRs**: 3041 · **Open PRs**: 58 · **Closed issues**: 3142 · **Open issues**: 73 · **Commits**: 7384
+- **Releases**: 147 · **Merged PRs**: 3068 · **Open PRs**: 36 · **Closed issues**: 3168 · **Open issues**: 48 · **Commits**: 7411
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 0 | 142 | 35 | 134 | 33 | 0 |
-| last60d | 2026-09-27 | 0 | 216 | 39 | 205 | 36 | 0 |
-| 90d | 2026-08-28 | 0 | 260 | 39 | 234 | 38 | 0 |
-| last180d | 2026-05-30 | 4 | 368 | 57 | 308 | 40 | 0 |
-| 360d | 2025-12-01 | 10 | 546 | 58 | 445 | 42 | 0 |
-| last720d | 2024-12-06 | 26 | 808 | 58 | 726 | 46 | 1891 |
+| 30d | 2026-10-28 | 0 | 167 | 13 | 157 | 8 | 0 |
+| last60d | 2026-09-28 | 0 | 239 | 17 | 227 | 10 | 0 |
+| 90d | 2026-08-29 | 0 | 287 | 17 | 260 | 13 | 0 |
+| last180d | 2026-05-31 | 4 | 395 | 35 | 334 | 15 | 0 |
+| 360d | 2025-12-02 | 10 | 573 | 36 | 471 | 17 | 0 |
+| last720d | 2024-12-07 | 26 | 835 | 36 | 752 | 21 | 1918 |
 
 ## Release assets
 
@@ -79,17 +79,6 @@ Lowest-scoring checks:
 | [nuclei_3.11.1_windows_386.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_386.zip) | 42.0 MiB | `native/win/x64` |
 | [nuclei_3.11.1_windows_amd64.zip](https://github.com/projectdiscovery/nuclei/releases/download/v3.11.1/nuclei_3.11.1_windows_amd64.zip) | 43.9 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **45** distros on [repology.org](https://repology.org/project/nuclei). **17** are ✅ on the latest upstream release, **24** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Homebrew | `3.11.1` | ✅ latest |
-| Fedora rawhide | `3.11.0` | ⚠️ outdated |
-| Nix unstable | `3.11.1` | ✅ latest |
-| Alpine edge | `3.11.0` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `nuclei` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -99,4 +88,4 @@ Install metadata for nuclei lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:29:24Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:08:03Z._
